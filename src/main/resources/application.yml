@@ -1,0 +1,21 @@
+spring:
+  mail:
+    host: smtp.mail.ru
+    port: 587
+    username: taskmanager1769@mail.ru
+    password: "r57sy0qErmgHQw1UUcJq"
+    test-connection: true
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+rabbit:
+  queue: EMAIL_SENDING_TASKS
+  exchange: exchange
+  routing-key: TaskTrackerKey
+
+sender:
+  address: taskmanager1769@mail.ru
