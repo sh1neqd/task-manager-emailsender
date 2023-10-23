@@ -1,9 +1,9 @@
 spring:
   mail:
-    host: smtp.mail.ru
-    port: 587
-    username: taskmanager1769@mail.ru
-    password: "r57sy0qErmgHQw1UUcJq"
+    host: 
+    port: 
+    username: 
+    password: 
     test-connection: true
     properties:
       mail:
@@ -18,4 +18,4 @@ rabbit:
   routing-key: TaskTrackerKey
 
 sender:
-  address: taskmanager1769@mail.ru
+  address: 
